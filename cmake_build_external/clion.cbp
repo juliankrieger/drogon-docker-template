@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="clion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clion">
+				<Option output="/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/clion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend/include/drogon/inc"/>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend"/>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend/models"/>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend/clion"/>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend/include/drogon/lib/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clion"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clion/fast">
+				<Option output="/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/clion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend/include/drogon/inc"/>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend"/>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend/models"/>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend/clion"/>
+					<Add directory="/Users/julian.krieger/Dev/Personal/testapp/backend/include/drogon/lib/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clion/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/julian.krieger/Dev/Personal/testapp/backend/cmake_build_external/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/julian.krieger/Dev/Personal/testapp/backend/src/main.cc">
+			<Option target="clion"/>
+		</Unit>
+		<Unit filename="/Users/julian.krieger/Dev/Personal/testapp/backend/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.5)
 project(clion CXX)
 
 include(CheckIncludeFileCXX)
-include_directories(include/drogon/lib/inc)
+include_directories(include/drogon/inc)
 link_directories(/include/drogon)
 
 check_include_file_cxx(any HAS_ANY)
@@ -17,10 +17,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(${PROJECT_NAME} src/main.cc)
-
-list(APPEND CMAKE_MODULE_PATH ./include/drogon)
-#find_package(Drogon CONFIG REQUIRED)
-#target_link_libraries(${PROJECT_NAME} PRIVATE Drogon::Drogon)
 
 if(CMAKE_CXX_STANDARD LESS 17)
     #With C++14, use boost to support any and string_view

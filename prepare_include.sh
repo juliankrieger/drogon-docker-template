@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -rv /install/* ./include/
+cp -rv /install/drogon/lib ./include/drogon
