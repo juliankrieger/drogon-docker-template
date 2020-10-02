@@ -1,0 +1,50 @@
+FROM ubuntu:18.04
+
+#RUN localectl set-locale LANG=en_US.UTF-8
+RUN mv /usr/bin/stat /usr/bin/stat_old
+RUN ( \
+    echo '#!/bin/sh'; \
+    echo 'EXPORT LANG=C'; \
+    echo 'exec "stat.old" "$@"'; \
+  ) > /usr/bin/stat
+
+RUN chmod +x /usr/bin/stat
+
+RUN apt-get update \
+  && apt-get upgrade \
+  && apt-get install -y openssh-server \
+    ssh \
+    build-essential \
+    gdb \
+    clang \
+    rsync \
+    tar \
+    python \
+  && apt-get clean
+
+RUN ( \
+    echo 'LogLevel DEBUG2'; \
+    echo 'PermitRootLogin yes'; \
+    echo 'PasswordAuthentication yes'; \
+    echo 'PermitEmptyPasswords yes'; \
+    echo 'Subsystem sftp /usr/lib/openssh/sftp-server'; \
+  ) > /etc/ssh/sshd_config_test_clion \
+  && mkdir /run/sshd
+
+RUN useradd -m username && yes password | passwd username
+# RUN usermod -aG sudo username
+# RUN yes password | sudo chown -R username:username /app
+
+RUN mkdir /app
+RUN mkdir /app/src
+RUN mkdir /app/build
+
+WORKDIR /app
+
+ADD run.sh ./run.sh
+
+RUN chmod +x ./run.sh
+
+RUN sh ./run.sh
+
+CMD ["/usr/sbin/sshd", "-D", "-e", "-f", "/etc/ssh/sshd_config_test_clion"]

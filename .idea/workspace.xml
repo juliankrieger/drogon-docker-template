@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="clion" targetName="clion" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="System" CONFIG_NAME="Debug" TOOLCHAIN_NAME="System" GENERATION_DIR="$PROJECT_DIR$/cmake_build_external" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="085fcf95-d226-4371-9e8c-9bba487be34b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/include/drogon" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="x48kq1zz" />
+  </component>
+  <component name="ProjectId" id="1iINKy7fAm7TY4vFpi8IchMbXxR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Build">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clion" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="clion" TARGET_NAME="clion" CONFIG_NAME="System" RUN_TARGET_PROJECT_NAME="clion" RUN_TARGET_NAME="clion">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="drogon" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="drogoncnt" />
+          <option name="entrypoint" value="" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="80" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="22" />
+                <option name="hostPort" value="2222" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="Dockerfile" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/app/src" />
+                <option name="hostPath" value="$PROJECT_DIR$/src" />
+              </DockerVolumeBindingImpl>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/app/build" />
+                <option name="hostPath" value="$PROJECT_DIR$/build" />
+              </DockerVolumeBindingImpl>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/app/include" />
+                <option name="hostPath" value="$PROJECT_DIR$/include" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.clion" />
+      <item itemvalue="Docker.Build" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="085fcf95-d226-4371-9e8c-9bba487be34b" name="Default Changelist" comment="" />
+      <created>1601591085284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601591085284</updated>
+      <workItem from="1601591087780" duration="100000" />
+      <workItem from="1601591206231" duration="891000" />
+      <workItem from="1601597677623" duration="520000" />
+      <workItem from="1601599163068" duration="8255000" />
+      <workItem from="1601607758397" duration="1396000" />
+      <workItem from="1601631037795" duration="3576000" />
+      <workItem from="1601634800675" duration="958000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/lib/drogon" />
+      <path value="$PROJECT_DIR$/src/lib/drogon/trantor" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="219" y="23" width="1000" height="822" key="#Docker" timestamp="1601599350001">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="219" y="23" width="1000" height="822" key="#Docker/0.23.1440.822@0.23.1440.822" timestamp="1601599350001" />
+    <state x="220" y="23" key="#Plugins" timestamp="1601591614406">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="220" y="23" key="#Plugins/0.23.1440.822@0.23.1440.822" timestamp="1601591614406" />
+    <state x="568" y="293" key="#Port_bindings" timestamp="1601605470669">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="568" y="293" key="#Port_bindings/0.23.1440.822@0.23.1440.822" timestamp="1601605470669" />
+    <state x="720" y="23" width="720" height="822" key="#SSH_Configurations" timestamp="1601606896827">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="720" y="23" width="720" height="822" key="#SSH_Configurations/0.23.1440.822@0.23.1440.822" timestamp="1601606896827" />
+    <state x="567" y="322" key="#Volume_binding" timestamp="1601601801718">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="567" y="322" key="#Volume_binding/0.23.1440.822@0.23.1440.822" timestamp="1601601801718" />
+    <state x="180" y="23" width="1079" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601633724802">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="180" y="23" width="1079" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1601633724802" />
+    <state x="180" y="23" width="1079" height="822" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.822@0.23.1440.822" timestamp="1601606651861" />
+    <state x="109" y="23" key="SettingsEditor" timestamp="1601634977085">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="109" y="23" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1601634977085" />
+    <state x="109" y="23" key="SettingsEditor/0.23.1440.822@0.23.1440.822" timestamp="1601630639898" />
+    <state x="603" y="330" width="513" height="266" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1601603683005">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="603" y="330" width="513" height="266" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize/0.23.1440.822@0.23.1440.822" timestamp="1601603683005" />
+    <state x="603" y="330" width="616" height="246" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize" timestamp="1601633699994">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="603" y="330" width="616" height="246" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.23.1440.821@0.23.1440.821" timestamp="1601633699994" />
+    <state x="603" y="330" width="713" height="266" key="com.intellij.docker.deployment.ui.DockerVolumeBindingsField.v173.dialogSize/0.23.1440.822@0.23.1440.822" timestamp="1601603142924" />
+    <state x="593" y="109" width="551" height="649" key="ftp.server.browser" timestamp="1601630403473">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="593" y="109" width="551" height="649" key="ftp.server.browser/0.23.1440.822@0.23.1440.822" timestamp="1601630403473" />
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1601632440722">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1601632440722" />
+  </component>
+</project>
